@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Countdown from "./components/Countdown";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Sidebar from "./components/Sidebar";
+import Bridegroom from "./components/Bridegroom";
+import RSVP from "./components/RSVP";
+import Where from "./components/Where";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Sidebar />
+      <div id="oliven-main">
+        <Header />
+        <Bridegroom />
+        <Countdown />
+        <Where />
+        <RSVP />
+        <Footer />
+      </div>
+    </>
   );
 }
 
