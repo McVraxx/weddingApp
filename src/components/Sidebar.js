@@ -23,7 +23,7 @@ function Sidebar() {
       <aside id="oliven-aside">
         <div className="oliven-logo">
           <a href="/">
-            <img src={Logo} />
+            <img src={Logo} alt="" />
             <span>
               Michalina <small>&</small> Karol
             </span>
@@ -36,32 +36,24 @@ function Sidebar() {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#couple">Couple</a>
+              <a href="#couple">Para młodych</a>
             </li>
             <li>
-              <a href="#story">Our story</a>
+              <a href="#whenwhere">Gdzie & Kiedy</a>
             </li>
             <li>
-              <a href="#organization">Organization</a>
-            </li>
-            <li>
-              <a href="#gallery">Gallery</a>
-            </li>
-            <li>
-              <a href="#whenwhere">When & Where</a>
-            </li>
-            <li>
-              <a href="#rsvp">R.S.V.P</a>
+              <a href="#rsvp">Potwierdzenie</a>
             </li>
           </ul>
         </nav>
         <div className="footer1">
           <span className="separator"></span>
           <p>
-            Michalina & Karol wesele
+            Michalina & Karol
             <br />
-            14 August 2023r. Królówka
+            14 Sierpień 2023r. Królówka
           </p>
+          <p>WERSJA NA EKRAN KOMPUTEROWY </p>
         </div>
       </aside>
     </>

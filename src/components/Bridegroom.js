@@ -20,13 +20,15 @@ function Bridegroom() {
                   <h6>
                     Michalina Kościelniak <i className="ti-heart"></i>
                   </h6>
-                  <span>The Bride</span>
+                  <span>Panna młoda</span>
+                  <p>Numer komórkowy: 664 863 214</p>
                   <p>
                     {" "}
                     Olivia fringilla dui at elit finibus viverra nec a lacus
                     seda themo the miss druane semper sollicitudin non the
                     fermen.
                   </p>
+
                   <div className="social">
                     <div className="full-width">
                       <a href="#0" className="icon">
@@ -55,7 +57,8 @@ function Bridegroom() {
               <div className="info valign">
                 <div className="full-width">
                   <h6>Karol Czoch</h6>
-                  <span>The Groom</span>
+                  <span>Pan młody</span>
+                  <p>Numer komórkowy: 537 035 232</p>
                   <p>
                     Enrico fringilla dui at elit finibus viverra nec a lacus
                     seda themo the miss druane semper sollicitudin non the
@@ -83,9 +86,9 @@ function Bridegroom() {
               className="col-md-12 text-center animate-box"
               data-animate-effect="fadeInUp"
             >
-              <h3 className="oliven-couple-title">Are getting married!</h3>
+              <h3 className="oliven-couple-title">Pobieramy się!</h3>
               <h4 className="oliven-couple-subtitle">
-                14 August , 2023r. Królówka
+                14 Sierpień, 2023r. Królówka
               </h4>
             </div>
           </div>

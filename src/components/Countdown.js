@@ -50,23 +50,23 @@ function Countdown() {
       <div className="container">
         <div className="row">
           <div className="section-head col-md-12">
-            <h4>We will become a family in</h4>
+            <h4>Ten pamiętny dzień nadchodzi za...</h4>
           </div>
         </div>
         <div className="row">
           <div className="col-md-12">
             <ul>
               <li>
-                <span id="days"></span>Days
+                <span id="days"></span>Dni
               </li>
               <li>
-                <span id="hours"></span>Hours
+                <span id="hours"></span>Godzin
               </li>
               <li>
-                <span id="minutes"></span>Minutes
+                <span id="minutes"></span>Minut
               </li>
               <li>
-                <span id="seconds"></span>Seconds
+                <span id="seconds"></span>Sekund
               </li>
             </ul>
           </div>

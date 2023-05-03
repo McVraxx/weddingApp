@@ -9,8 +9,8 @@ function Where() {
       <div className="container">
         <div className="row">
           <div className="col-md-12 mb-30">
-            <span className="oliven-title-meta">Questions</span>
-            <h2 className="oliven-title"> Where & Where </h2>
+            <span className="oliven-title-meta">Informacje</span>
+            <h2 className="oliven-title"> Gdzie & Kiedy </h2>
           </div>
         </div>
         <div>
@@ -20,12 +20,16 @@ function Where() {
                 <img src={where1} alt="" />
               </div>
               <div className="content">
-                <h5>Wedding Ceremony</h5>
+                <h5>Ceremonia weselna</h5>
                 <p>
-                  <i className="ti-location-pin"></i> Królówka
+                  <i className="ti-location-pin">
+                    Parafia pod wezwaniem Przemienienia Pańskiego
+                  </i>
                 </p>
+                <p>Królówka 3, 32-722</p>
                 <p>
-                  <i className="ti-time"></i> <span> 15:00</span>
+                  <i className="ti-time"></i>{" "}
+                  <span> Rozpoczęcie ceremoni: 15:00</span>
                 </p>
               </div>
             </div>
@@ -34,12 +38,14 @@ function Where() {
                 <img src={where2} alt="" />
               </div>
               <div className="content">
-                <h5>Wedding Party</h5>
+                <h5>Przyjęcie weselne</h5>
                 <p>
-                  <i className="ti-location-pin"></i>Gnojnik
+                  <i className="ti-location-pin">Dom weselny "Zacisze"</i>
                 </p>
+                <p>Gnojnik 691, 32-864</p>
                 <p>
-                  <i className="ti-time"></i> <span> 16:00</span>
+                  <i className="ti-time"></i>
+                  <span> Rozpoczęcie przyjęcia: 16:00</span>
                 </p>
               </div>
             </div>
@@ -48,12 +54,13 @@ function Where() {
                 <img src={where3} alt="" />
               </div>
               <div className="content">
-                <h5> Accomodations</h5>
+                <h5>Zakwaterowanie</h5>
                 <p>
-                  <i className="ti-direction-alt"></i> Hotel
+                  <i className="ti-direction-alt">Hotel dla chętnych</i> -
+                  prosimy informować parę młodą
                 </p>
                 <p>
-                  <i className="ti-direction"> Hotel Gnojnik</i>
+                  <i className="ti-direction"></i>Hotel w domu weselnym
                 </p>
               </div>
             </div>

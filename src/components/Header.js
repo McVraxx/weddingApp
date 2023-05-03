@@ -10,7 +10,7 @@ function Header() {
               Michalina & Karol
             </h1>
             <h5 className="animate-box" data-animate-effect="fadeInUp">
-              14 Aug, 2023 - Królówka
+              14 Sierpień, 2023 - Królówka
             </h5>
           </div>
         </div>

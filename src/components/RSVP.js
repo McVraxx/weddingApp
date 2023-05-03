@@ -7,9 +7,11 @@ function RSVP() {
         <div className="row justify-content-center">
           <div className="col-md-6 bg-white p-40 ml-10">
             <span className="oliven-title-meta text-center">
-              Will you attend?
+              Czy będziecie obecni na naszym weselu?
             </span>
-            <h2 className="oliven-title text-center">R.S.V.P</h2>
+            <h3 className="oliven-title text-center">
+              Potwierdź swoją obecność e-mailem
+            </h3>
             <br />
             <form method="post" className="row">
               <div className="col-md-12">
@@ -17,7 +19,7 @@ function RSVP() {
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="Name"
+                    placeholder="Imię i Nazwisko"
                     required
                   />
                 </div>
@@ -27,7 +29,7 @@ function RSVP() {
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="Email"
+                    placeholder="E-mail"
                   />
                 </div>
               </div>
@@ -36,7 +38,7 @@ function RSVP() {
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="Guests"
+                    placeholder="Goście którzy będą"
                   />
                 </div>
               </div>
@@ -48,7 +50,7 @@ function RSVP() {
                     cols="30"
                     rows="7"
                     className="form-control"
-                    placeholder="Message"
+                    placeholder="Wiadomość"
                   ></textarea>
                 </div>
               </div>
