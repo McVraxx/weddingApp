@@ -344,7 +344,7 @@ input[type="radio"]:checked:before {
 #message {
   font-family: "Nunito Sans", sans-serif;
   height: 130px;
-  padding: 12px;
+  padding: 9px;
   border: 1px solid #ececec;
 }
 /* padding */
@@ -406,6 +406,9 @@ input[type="radio"]:checked:before {
   left: 0;
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
+}
+.form-group {
+  width: 90%;
 }
 .valign {
   display: -webkit-box;
@@ -504,8 +507,8 @@ input[type="radio"]:checked:before {
   position: relative;
 }
 #oliven-aside {
-  padding: 60px 30px;
-  width: 22%;
+  padding: 60px 15px;
+  width: 20%;
   position: fixed;
   bottom: 0;
   top: 0;
@@ -555,6 +558,10 @@ input[type="radio"]:checked:before {
   text-align: center;
   font-size: 24px;
   color: #fff;
+}
+.repair {
+  display: flex;
+  justify-content: center;
 }
 #oliven-aside .oliven-logo h6 {
   font-family: "Nunito Sans", sans-serif;
@@ -882,6 +889,7 @@ body.slide .oliven-nav-toggle {
 .fleximus {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 /* bounce */
 .header .arrow {

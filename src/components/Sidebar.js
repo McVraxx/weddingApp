@@ -33,7 +33,7 @@ function Sidebar() {
         <nav className="oliven-main-menu">
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home">Strona główna</a>
             </li>
             <li>
               <a href="#couple">Para młodych</a>
