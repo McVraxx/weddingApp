@@ -960,8 +960,20 @@ body.slide .oliven-nav-toggle {
   margin-left: 5%;
   top: 12px;
   font-family: "Alex Brush", cursive;
-  font-weight: 400;
-  font-size: 60px;
+  font-weight: 40;
+  font-size: 100px;
+  color: #bd945a;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+.oliven-couple-title2 {
+  display: block;
+  position: center;
+  margin-left: 5%;
+  top: 12px;
+  font-family: "Alex Brush", cursive;
+  font-weight: 40;
+  font-size: 50px;
   color: #bd945a;
   line-height: 1.5em;
   margin-bottom: 5px;

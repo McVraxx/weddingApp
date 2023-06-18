@@ -22,12 +22,7 @@ function Bridegroom() {
                   </h6>
                   <span>Panna młoda</span>
                   <p>Numer komórkowy: 664 863 214</p>
-                  <p>
-                    {" "}
-                    Olivia fringilla dui at elit finibus viverra nec a lacus
-                    seda themo the miss druane semper sollicitudin non the
-                    fermen.
-                  </p>
+                  <p></p>
 
                   <div className="social">
                     <div className="full-width">
@@ -59,11 +54,7 @@ function Bridegroom() {
                   <h6>Karol Czoch</h6>
                   <span>Pan młody</span>
                   <p>Numer komórkowy: 537 035 232</p>
-                  <p>
-                    Enrico fringilla dui at elit finibus viverra nec a lacus
-                    seda themo the miss druane semper sollicitudin non the
-                    fermen.
-                  </p>
+                  <p></p>
                   <div className="social">
                     <div className="full-width">
                       <a href="#0" className="icon">
@@ -86,9 +77,15 @@ function Bridegroom() {
               className="col-md-12 text-center animate-box"
               data-animate-effect="fadeInUp"
             >
+              <h4 className="oliven-couple-title2">
+                Strona ta powstała w zamyśle alternatywnej formy zaproszenia w
+                szczególności dla młodszej grupy zaproszonych. Gdyż oficjalnie
+                informujemy że...
+              </h4>
               <h3 className="oliven-couple-title">Pobieramy się!</h3>
-              <h4 className="oliven-couple-subtitle">
-                14 Sierpień, 2023r. Królówka
+              <h4 className="oliven-couple-title2">
+                I informujemy że zapraszamy na ceremonie w Królówce i przyjęcie
+                weselne w domu weselnym "Zacisze"!
               </h4>
             </div>
           </div>
