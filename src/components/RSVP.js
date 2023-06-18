@@ -1,4 +1,24 @@
 import React from "react";
+import emailjs from "@emailjs/browser";
+
+const sendEmail = (e) => {
+  e.preventDefault();
+  emailjs
+    .sendForm(
+      "service_0dqklql",
+      "template_dw4kydn",
+      e.target,
+      "OdDGozbtSiAHH1UMh"
+    )
+    .then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+};
 
 function RSVP() {
   return (
@@ -14,10 +34,13 @@ function RSVP() {
                 Potwierdź swoją obecność e-mailem
               </h3>
               <br />
-              <form method="post" className="row">
+              <form method="post" className="row" onSubmit={sendEmail}>
                 <div className="col-md-12">
                   <div className="form-group">
                     <input
+                      htmlFor="nameFrom"
+                      name="name_from"
+                      id="nameFrom"
                       type="text"
                       className="form-control"
                       placeholder="Imię i Nazwisko"
@@ -28,8 +51,11 @@ function RSVP() {
                 <div className="col-md-12">
                   <div className="form-group">
                     <input
+                      className="mb-1"
+                      htmlFor="emailFrom"
+                      name="email_from"
+                      id="emailFrom"
                       type="text"
-                      className="form-control"
                       placeholder="E-mail"
                     />
                   </div>
@@ -37,6 +63,9 @@ function RSVP() {
                 <div className="col-md-12 ">
                   <div className="form-group">
                     <input
+                      htmlFor="numberFrom"
+                      name="number_from"
+                      id="numberFrom"
                       type="text"
                       className="form-control"
                       placeholder="Goście którzy będą"
@@ -48,6 +77,7 @@ function RSVP() {
                     <textarea
                       name="message"
                       id="message"
+                      type="text"
                       cols="30"
                       rows="7"
                       className="form-control"
@@ -57,7 +87,7 @@ function RSVP() {
                 </div>
                 <div className="col-md-12">
                   <div className="form-group">
-                    <input type="submit" className="btn buttono" value="SEND" />
+                    <input type="submit" className="btn buttono" />
                   </div>
                 </div>
               </form>
